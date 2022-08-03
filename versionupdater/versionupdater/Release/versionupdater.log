@@ -1,0 +1,9 @@
+﻿  dllmain.cpp
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\dllmain.cpp(12,1): warning C4326: 'main' öğesinin dönüş türü 'int' olmalıdır, 'void' değil
+  extra.cpp
+  Kod üretiliyor
+  12 of 379 functions ( 3.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Kodun üretilmesi tamamlandı
+  versionupdater.vcxproj -> C:\Users\hkaga\source\repos\versionupdater\Release\versionupdater.dll

@@ -1,0 +1,35 @@
+﻿  dllmain.cpp
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\dllmain.cpp(10,95): error C2664: 'HINTERNET InternetOpenW(LPCWSTR,DWORD,LPCWSTR,LPCWSTR,DWORD)' : 1 bağımsız değişkeni 'const char [12]' değerinden 'LPCWSTR' değerine dönüştürülemez
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\dllmain.cpp(10,37): message : İşaretlenen türler ilgisiz; dönüştürme reinterpret_cast, C stili tür dönüştürme veya işlev stili tür dönüştürme gerektiriyor
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Wininet.h(868,25): message : 'InternetOpenW' bildirimine bakın
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\dllmain.cpp(14,75): error C2664: 'HINTERNET InternetOpenUrlW(HINTERNET,LPCWSTR,LPCWSTR,DWORD,DWORD,DWORD_PTR)' : 2 bağımsız değişkeni 'const _Elem *' değerinden 'LPCWSTR' değerine dönüştürülemez
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\dllmain.cpp(14,49): message : İşaretlenen türler ilgisiz; dönüştürme reinterpret_cast, C stili tür dönüştürme veya işlev stili tür dönüştürme gerektiriyor
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Wininet.h(947,25): message : 'InternetOpenUrlW' bildirimine bakın
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\dllmain.cpp(32,1): warning C4326: 'main' öğesinin dönüş türü 'int' olmalıdır, 'void' değil
+  extra.cpp
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\extra.cpp(27,15): warning C4553: '==': ifade sonucu kullanılmıyor; '=' kullanmak mı istediniz?
+  eyestep.cpp
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep.cpp(1323,31): warning C4018: '>': imzalı/imzasız uyuşmazlığı
+  eyestep_utility.cpp
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(227,22): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(248,22): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(881,22): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(885,23): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(969,22): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(986,30): warning C4267: '=': 'size_t' - 'uint8_t' dönüşümü; veri kaybı olabilir
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1032,22): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1094,21): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1361,21): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1386,10): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1408,18): warning C4244: 'başlatılıyor': 'std::streamoff' - 'size_t' dönüşümü; veri kaybı olabilir
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1597,15): warning C4302: 'reinterpret_cast': 'void *' iken 'uint8_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1600,15): warning C4302: 'reinterpret_cast': 'void *' iken 'uint16_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1606,15): warning C4302: 'reinterpret_cast': 'void *' iken 'uint8_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1609,15): warning C4302: 'reinterpret_cast': 'void *' iken 'uint16_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1622,45): warning C4018: '>=': imzalı/imzasız uyuşmazlığı
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1493,10): warning C4101: 'bytes_read': yerel değişken başvurusu kaldırıldı
+  Kod Üretiliyor...

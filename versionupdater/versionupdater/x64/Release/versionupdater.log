@@ -1,0 +1,182 @@
+﻿  dllmain.cpp
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\dllmain.cpp(10,95): error C2664: 'HINTERNET InternetOpenW(LPCWSTR,DWORD,LPCWSTR,LPCWSTR,DWORD)' : 1 bağımsız değişkeni 'const char [12]' değerinden 'LPCWSTR' değerine dönüştürülemez
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\dllmain.cpp(10,37): message : İşaretlenen türler ilgisiz; dönüştürme reinterpret_cast, C stili tür dönüştürme veya işlev stili tür dönüştürme gerektiriyor
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Wininet.h(868,25): message : 'InternetOpenW' bildirimine bakın
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\dllmain.cpp(14,75): error C2664: 'HINTERNET InternetOpenUrlW(HINTERNET,LPCWSTR,LPCWSTR,DWORD,DWORD,DWORD_PTR)' : 2 bağımsız değişkeni 'const _Elem *' değerinden 'LPCWSTR' değerine dönüştürülemez
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\dllmain.cpp(14,49): message : İşaretlenen türler ilgisiz; dönüştürme reinterpret_cast, C stili tür dönüştürme veya işlev stili tür dönüştürme gerektiriyor
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Wininet.h(947,25): message : 'InternetOpenUrlW' bildirimine bakın
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\dllmain.cpp(32,1): warning C4326: 'main' öğesinin dönüş türü 'int' olmalıdır, 'void' değil
+  extra.cpp
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\extra.cpp(27,15): warning C4553: '==': ifade sonucu kullanılmıyor; '=' kullanmak mı istediniz?
+  eyestep.cpp
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep.cpp(1146,46): error C3861: '__readfsdword': tanımlayıcı bulunamadı
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep.cpp(1247,123): error C2664: 'BOOL ReadProcessMemory(HANDLE,LPCVOID,LPVOID,SIZE_T,SIZE_T *)' : 5 bağımsız değişkeni 'DWORD *' değerinden 'SIZE_T *' değerine dönüştürülemez
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep.cpp(1247,115): message : İşaretlenen türler ilgisiz; dönüştürme reinterpret_cast, C stili tür dönüştürme veya işlev stili tür dönüştürme gerektiriyor
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\memoryapi.h(159,1): message : 'ReadProcessMemory' bildirimine bakın
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep.cpp(1586,1): warning C4311: 'reinterpret_cast': işaretçi kesilmesi: 'uint8_t *' - 'uint32_t'
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep.cpp(1916): message : derlenen şablon işlevi 'auto EyeStep::read::<lambda_12aef6944e8745e2a07ea7127aec75b3>::operator ()<uint8_t*>(uint8_t *) const' örneği oluşturma başvurusuna bakın
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep.cpp(1586,1): warning C4302: 'reinterpret_cast': 'uint8_t *' iken 'uint32_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep.cpp(1586,25): warning C4244: 'başlatılıyor': 'uintptr_t' - 'uint32_t' dönüşümü; veri kaybı olabilir
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep.cpp(1590,25): warning C4477: 'sprintf' : '%08X' biçim dizesi 'unsigned int' türü bir bağımsız değişken gerektirir, ancak 1 değişen sayıda bağımsız değişkenin türü 'size_t'
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep.cpp(1590,25): message : biçim dizesinde '%zX' kullanmayı düşünün
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep.cpp(1603,1): warning C4311: 'reinterpret_cast': işaretçi kesilmesi: 'uint8_t *' - 'uint32_t'
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep.cpp(1919): message : derlenen şablon işlevi 'auto EyeStep::read::<lambda_2aff0be98395cdd4c71593edd0a3aaae>::operator ()<uint8_t*>(uint8_t *) const' örneği oluşturma başvurusuna bakın
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep.cpp(1603,1): warning C4302: 'reinterpret_cast': 'uint8_t *' iken 'uint32_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep.cpp(1603,25): warning C4244: 'başlatılıyor': 'uintptr_t' - 'uint32_t' dönüşümü; veri kaybı olabilir
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep.cpp(1607,25): warning C4477: 'sprintf' : '%08X' biçim dizesi 'unsigned int' türü bir bağımsız değişken gerektirir, ancak 1 değişen sayıda bağımsız değişkenin türü 'size_t'
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep.cpp(1607,25): message : biçim dizesinde '%zX' kullanmayı düşünün
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep.cpp(1620,1): warning C4311: 'reinterpret_cast': işaretçi kesilmesi: 'uint8_t *' - 'uint32_t'
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep.cpp(1923): message : derlenen şablon işlevi 'auto EyeStep::read::<lambda_af45dcbdd3a9106fdc88ff9d1b462541>::operator ()<uint8_t*>(uint8_t *) const' örneği oluşturma başvurusuna bakın
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep.cpp(1620,1): warning C4302: 'reinterpret_cast': 'uint8_t *' iken 'uint32_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep.cpp(1620,25): warning C4244: 'başlatılıyor': 'uintptr_t' - 'uint32_t' dönüşümü; veri kaybı olabilir
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep.cpp(1624,25): warning C4477: 'sprintf' : '%08X' biçim dizesi 'unsigned int' türü bir bağımsız değişken gerektirir, ancak 1 değişen sayıda bağımsız değişkenin türü 'size_t'
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep.cpp(1624,25): message : biçim dizesinde '%zX' kullanmayı düşünün
+  eyestep_utility.cpp
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(26,67): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(29,51): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(39,65): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(42,49): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(51,40): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'uint8_t *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(56,69): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(56,103): error C2664: 'BOOL WriteProcessMemory(HANDLE,LPVOID,LPCVOID,SIZE_T,SIZE_T *)' : 5 bağımsız değişkeni 'DWORD *' değerinden 'SIZE_T *' değerine dönüştürülemez
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(56,95): message : İşaretlenen türler ilgisiz; dönüştürme reinterpret_cast, C stili tür dönüştürme veya işlev stili tür dönüştürme gerektiriyor
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\memoryapi.h(172,1): message : 'WriteProcessMemory' bildirimine bakın
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(63,43): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(65,69): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(65,94): error C2664: 'BOOL WriteProcessMemory(HANDLE,LPVOID,LPCVOID,SIZE_T,SIZE_T *)' : 5 bağımsız değişkeni 'DWORD *' değerinden 'SIZE_T *' değerine dönüştürülemez
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(65,86): message : İşaretlenen türler ilgisiz; dönüştürme reinterpret_cast, C stili tür dönüştürme veya işlev stili tür dönüştürme gerektiriyor
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\memoryapi.h(172,1): message : 'WriteProcessMemory' bildirimine bakın
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(71,41): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'uint16_t *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(76,69): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(76,103): error C2664: 'BOOL WriteProcessMemory(HANDLE,LPVOID,LPCVOID,SIZE_T,SIZE_T *)' : 5 bağımsız değişkeni 'DWORD *' değerinden 'SIZE_T *' değerine dönüştürülemez
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(76,95): message : İşaretlenen türler ilgisiz; dönüştürme reinterpret_cast, C stili tür dönüştürme veya işlev stili tür dönüştürme gerektiriyor
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\memoryapi.h(172,1): message : 'WriteProcessMemory' bildirimine bakın
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(83,41): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'uint32_t *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(88,69): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(88,103): error C2664: 'BOOL WriteProcessMemory(HANDLE,LPVOID,LPCVOID,SIZE_T,SIZE_T *)' : 5 bağımsız değişkeni 'DWORD *' değerinden 'SIZE_T *' değerine dönüştürülemez
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(88,95): message : İşaretlenen türler ilgisiz; dönüştürme reinterpret_cast, C stili tür dönüştürme veya işlev stili tür dönüştürme gerektiriyor
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\memoryapi.h(172,1): message : 'WriteProcessMemory' bildirimine bakın
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(95,38): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'float *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(100,69): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(100,103): error C2664: 'BOOL WriteProcessMemory(HANDLE,LPVOID,LPCVOID,SIZE_T,SIZE_T *)' : 5 bağımsız değişkeni 'DWORD *' değerinden 'SIZE_T *' değerine dönüştürülemez
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(100,95): message : İşaretlenen türler ilgisiz; dönüştürme reinterpret_cast, C stili tür dönüştürme veya işlev stili tür dönüştürme gerektiriyor
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\memoryapi.h(172,1): message : 'WriteProcessMemory' bildirimine bakın
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(107,41): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'uint64_t *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(112,69): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(112,103): error C2664: 'BOOL WriteProcessMemory(HANDLE,LPVOID,LPCVOID,SIZE_T,SIZE_T *)' : 5 bağımsız değişkeni 'DWORD *' değerinden 'SIZE_T *' değerine dönüştürülemez
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(112,95): message : İşaretlenen türler ilgisiz; dönüştürme reinterpret_cast, C stili tür dönüştürme veya işlev stili tür dönüştürme gerektiriyor
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\memoryapi.h(172,1): message : 'WriteProcessMemory' bildirimine bakın
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(119,39): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'double *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(124,69): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(124,103): error C2664: 'BOOL WriteProcessMemory(HANDLE,LPVOID,LPCVOID,SIZE_T,SIZE_T *)' : 5 bağımsız değişkeni 'DWORD *' değerinden 'SIZE_T *' değerine dönüştürülemez
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(124,95): message : İşaretlenen türler ilgisiz; dönüştürme reinterpret_cast, C stili tür dönüştürme veya işlev stili tür dönüştürme gerektiriyor
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\memoryapi.h(172,1): message : 'WriteProcessMemory' bildirimine bakın
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(132,47): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'uint8_t *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(135,67): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(135,103): error C2664: 'BOOL ReadProcessMemory(HANDLE,LPCVOID,LPVOID,SIZE_T,SIZE_T *)' : 5 bağımsız değişkeni 'DWORD *' değerinden 'SIZE_T *' değerine dönüştürülemez
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(135,95): message : İşaretlenen türler ilgisiz; dönüştürme reinterpret_cast, C stili tür dönüştürme veya işlev stili tür dönüştürme gerektiriyor
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\memoryapi.h(159,1): message : 'ReadProcessMemory' bildirimine bakın
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(146,50): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(150,67): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(150,92): error C2664: 'BOOL ReadProcessMemory(HANDLE,LPCVOID,LPVOID,SIZE_T,SIZE_T *)' : 5 bağımsız değişkeni 'DWORD *' değerinden 'SIZE_T *' değerine dönüştürülemez
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(150,84): message : İşaretlenen türler ilgisiz; dönüştürme reinterpret_cast, C stili tür dönüştürme veya işlev stili tür dönüştürme gerektiriyor
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\memoryapi.h(159,1): message : 'ReadProcessMemory' bildirimine bakın
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(157,48): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'uint16_t *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(160,67): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(160,104): error C2664: 'BOOL ReadProcessMemory(HANDLE,LPCVOID,LPVOID,SIZE_T,SIZE_T *)' : 5 bağımsız değişkeni 'DWORD *' değerinden 'SIZE_T *' değerine dönüştürülemez
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(160,96): message : İşaretlenen türler ilgisiz; dönüştürme reinterpret_cast, C stili tür dönüştürme veya işlev stili tür dönüştürme gerektiriyor
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\memoryapi.h(159,1): message : 'ReadProcessMemory' bildirimine bakın
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(168,48): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'uint32_t *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(171,67): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(171,104): error C2664: 'BOOL ReadProcessMemory(HANDLE,LPCVOID,LPVOID,SIZE_T,SIZE_T *)' : 5 bağımsız değişkeni 'DWORD *' değerinden 'SIZE_T *' değerine dönüştürülemez
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(171,96): message : İşaretlenen türler ilgisiz; dönüştürme reinterpret_cast, C stili tür dönüştürme veya işlev stili tür dönüştürme gerektiriyor
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\memoryapi.h(159,1): message : 'ReadProcessMemory' bildirimine bakın
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(179,45): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'float *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(182,67): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(182,101): error C2664: 'BOOL ReadProcessMemory(HANDLE,LPCVOID,LPVOID,SIZE_T,SIZE_T *)' : 5 bağımsız değişkeni 'DWORD *' değerinden 'SIZE_T *' değerine dönüştürülemez
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(182,93): message : İşaretlenen türler ilgisiz; dönüştürme reinterpret_cast, C stili tür dönüştürme veya işlev stili tür dönüştürme gerektiriyor
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\memoryapi.h(159,1): message : 'ReadProcessMemory' bildirimine bakın
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(190,48): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'uint64_t *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(193,67): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(193,104): error C2664: 'BOOL ReadProcessMemory(HANDLE,LPCVOID,LPVOID,SIZE_T,SIZE_T *)' : 5 bağımsız değişkeni 'DWORD *' değerinden 'SIZE_T *' değerine dönüştürülemez
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(193,96): message : İşaretlenen türler ilgisiz; dönüştürme reinterpret_cast, C stili tür dönüştürme veya işlev stili tür dönüştürme gerektiriyor
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\memoryapi.h(159,1): message : 'ReadProcessMemory' bildirimine bakın
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(201,46): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'double *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(204,67): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(204,102): error C2664: 'BOOL ReadProcessMemory(HANDLE,LPCVOID,LPVOID,SIZE_T,SIZE_T *)' : 5 bağımsız değişkeni 'DWORD *' değerinden 'SIZE_T *' değerine dönüştürülemez
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(204,94): message : İşaretlenen türler ilgisiz; dönüştürme reinterpret_cast, C stili tür dönüştürme veya işlev stili tür dönüştürme gerektiriyor
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\memoryapi.h(159,1): message : 'ReadProcessMemory' bildirimine bakın
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(219,53): warning C4267: '+=': 'size_t' - 'uint32_t' dönüşümü; veri kaybı olabilir
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(227,22): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(240,53): warning C4267: '+=': 'size_t' - 'uint32_t' dönüşümü; veri kaybı olabilir
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(248,22): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(259,34): warning C4267: 'bağımsız değişken': 'size_t' - 'uint32_t' dönüşümü; veri kaybı olabilir
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(264,49): warning C4311: 'reinterpret_cast': işaretçi kesilmesi: 'HMODULE' - 'uint32_t'
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(264,49): warning C4302: 'reinterpret_cast': 'HMODULE' iken 'uint32_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(269,60): warning C4311: 'reinterpret_cast': işaretçi kesilmesi: 'HMODULE' - 'uint32_t'
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(269,60): warning C4302: 'reinterpret_cast': 'HMODULE' iken 'uint32_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(274,60): warning C4311: 'reinterpret_cast': işaretçi kesilmesi: 'HMODULE' - 'uint32_t'
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(274,60): warning C4302: 'reinterpret_cast': 'HMODULE' iken 'uint32_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(286,64): warning C4311: 'reinterpret_cast': işaretçi kesilmesi: 'HMODULE' - 'uint32_t'
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(286,64): warning C4302: 'reinterpret_cast': 'HMODULE' iken 'uint32_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(287,64): warning C4311: 'reinterpret_cast': işaretçi kesilmesi: 'HMODULE' - 'uint32_t'
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(287,64): warning C4302: 'reinterpret_cast': 'HMODULE' iken 'uint32_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(621,16): warning C4267: '+=': 'size_t' - 'uint32_t' dönüşümü; veri kaybı olabilir
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(699,16): warning C4267: '+=': 'size_t' - 'uint32_t' dönüşümü; veri kaybı olabilir
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(767,123): warning C4311: 'reinterpret_cast': işaretçi kesilmesi: 'LPVOID' - 'uint32_t'
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(767,123): warning C4302: 'reinterpret_cast': 'LPVOID' iken 'uint32_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(867,45): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(896,16): warning C4267: '+=': 'size_t' - 'uint32_t' dönüşümü; veri kaybı olabilir
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(953,121): warning C4311: 'reinterpret_cast': işaretçi kesilmesi: 'LPVOID' - 'uint32_t'
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(953,121): warning C4302: 'reinterpret_cast': 'LPVOID' iken 'uint32_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(955,105): warning C4311: 'reinterpret_cast': işaretçi kesilmesi: 'LPVOID' - 'uint32_t'
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(955,105): warning C4302: 'reinterpret_cast': 'LPVOID' iken 'uint32_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(986,30): warning C4267: '=': 'size_t' - 'uint8_t' dönüşümü; veri kaybı olabilir
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(991,57): warning C4267: '=': 'size_t' - 'uint32_t' dönüşümü; veri kaybı olabilir
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(996,54): warning C4267: '=': 'size_t' - 'uint32_t' dönüşümü; veri kaybı olabilir
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1046,65): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1048,49): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1094,21): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1142,48): warning C4244: 'bağımsız değişken': 'uintptr_t' - 'uint32_t' dönüşümü; veri kaybı olabilir
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1286,15): warning C4267: '+=': 'size_t' - 'uint32_t' dönüşümü; veri kaybı olabilir
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1314,5): warning C4267: 'başlatılıyor': 'size_t' - 'int' dönüşümü; veri kaybı olabilir
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1551,51): warning C4311: 'reinterpret_cast': işaretçi kesilmesi: 'HMODULE' - 'uint32_t'
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1551,51): warning C4302: 'reinterpret_cast': 'HMODULE' iken 'uint32_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1551,71): warning C4267: '=': 'size_t' - 'uint32_t' dönüşümü; veri kaybı olabilir
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1552,75): warning C4311: 'reinterpret_cast': işaretçi kesilmesi: 'LPVOID' - 'uint32_t'
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1552,75): warning C4302: 'reinterpret_cast': 'LPVOID' iken 'uint32_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1556,51): warning C4311: 'reinterpret_cast': işaretçi kesilmesi: 'HMODULE' - 'uint32_t'
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1556,51): warning C4302: 'reinterpret_cast': 'HMODULE' iken 'uint32_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1557,49): warning C4311: 'reinterpret_cast': işaretçi kesilmesi: 'HMODULE' - 'uint32_t'
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1557,49): warning C4302: 'reinterpret_cast': 'HMODULE' iken 'uint32_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1557,69): warning C4267: '=': 'size_t' - 'uint32_t' dönüşümü; veri kaybı olabilir
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1564,48): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1567,64): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1582,36): warning C4267: 'başlatılıyor': 'size_t' - 'uint32_t' dönüşümü; veri kaybı olabilir
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1597,15): warning C4302: 'reinterpret_cast': 'void *' iken 'uint8_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1600,15): warning C4302: 'reinterpret_cast': 'void *' iken 'uint16_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1603,15): warning C4311: 'reinterpret_cast': işaretçi kesilmesi: 'void *' - 'uint32_t'
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1603,15): warning C4302: 'reinterpret_cast': 'void *' iken 'uint32_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1606,15): warning C4302: 'reinterpret_cast': 'void *' iken 'uint8_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1609,15): warning C4302: 'reinterpret_cast': 'void *' iken 'uint16_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1612,15): warning C4311: 'reinterpret_cast': işaretçi kesilmesi: 'void *' - 'uint32_t'
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1612,15): warning C4302: 'reinterpret_cast': 'void *' iken 'uint32_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1633,29): warning C4244: '+=': 'SIZE_T' - 'uint32_t' dönüşümü; veri kaybı olabilir
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1699,59): warning C4311: 'reinterpret_cast': işaretçi kesilmesi: 'HMODULE' - 'uint32_t'
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1699,59): warning C4302: 'reinterpret_cast': 'HMODULE' iken 'uint32_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1700,57): warning C4311: 'reinterpret_cast': işaretçi kesilmesi: 'HMODULE' - 'uint32_t'
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1700,57): warning C4302: 'reinterpret_cast': 'HMODULE' iken 'uint32_t' olarak kesildi
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1700,77): warning C4267: 'başlatılıyor': 'size_t' - 'uint32_t' dönüşümü; veri kaybı olabilir
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1706,48): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1709,64): warning C4312: 'reinterpret_cast': 'uint32_t' öğesinden daha büyük boyutlu 'void *' öğesine dönüştürme
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1720,11): warning C4267: 'bağımsız değişken': 'size_t' - 'uint32_t' dönüşümü; veri kaybı olabilir
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1722,37): warning C4267: 'bağımsız değişken': 'size_t' - '_Ty' dönüşümü; veri kaybı olabilir
+          with
+          [
+              _Ty=uint32_t
+          ]
+C:\Users\hkaga\source\repos\versionupdater\versionupdater\EyeStep\eyestep_utility.cpp(1730,28): warning C4244: '+=': 'SIZE_T' - 'uint32_t' dönüşümü; veri kaybı olabilir
